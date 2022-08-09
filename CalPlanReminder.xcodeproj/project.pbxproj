@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B75BB728A21CEB00893AE3 /* CalPlanReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BB628A21CEB00893AE3 /* CalPlanReminderApp.swift */; };
+		93B75BB928A21CEB00893AE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BB828A21CEB00893AE3 /* ContentView.swift */; };
+		93B75BBB28A21CEC00893AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B75BBA28A21CEC00893AE3 /* Assets.xcassets */; };
+		93B75BBE28A21CEC00893AE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B75BBD28A21CEC00893AE3 /* Preview Assets.xcassets */; };
+		93B75BC028A21CEC00893AE3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BBF28A21CEC00893AE3 /* Persistence.swift */; };
+		93B75BC328A21CEC00893AE3 /* CalPlanReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BC128A21CEC00893AE3 /* CalPlanReminder.xcdatamodeld */; };
+		93B75BCD28A21CEC00893AE3 /* CalPlanReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BCC28A21CEC00893AE3 /* CalPlanReminderTests.swift */; };
+		93B75BD728A21CEC00893AE3 /* CalPlanReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BD628A21CEC00893AE3 /* CalPlanReminderUITests.swift */; };
+		93B75BD928A21CEC00893AE3 /* CalPlanReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B75BD828A21CEC00893AE3 /* CalPlanReminderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93B75BC928A21CEC00893AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B75BAB28A21CEB00893AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B75BB228A21CEB00893AE3;
+			remoteInfo = CalPlanReminder;
+		};
+		93B75BD328A21CEC00893AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B75BAB28A21CEB00893AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B75BB228A21CEB00893AE3;
+			remoteInfo = CalPlanReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93B75BB328A21CEB00893AE3 /* CalPlanReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalPlanReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B75BB628A21CEB00893AE3 /* CalPlanReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPlanReminderApp.swift; sourceTree = "<group>"; };
+		93B75BB828A21CEB00893AE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93B75BBA28A21CEC00893AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93B75BBD28A21CEC00893AE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93B75BBF28A21CEC00893AE3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		93B75BC228A21CEC00893AE3 /* CalPlanReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalPlanReminder.xcdatamodel; sourceTree = "<group>"; };
+		93B75BC828A21CEC00893AE3 /* CalPlanReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalPlanReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B75BCC28A21CEC00893AE3 /* CalPlanReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPlanReminderTests.swift; sourceTree = "<group>"; };
+		93B75BD228A21CEC00893AE3 /* CalPlanReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalPlanReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B75BD628A21CEC00893AE3 /* CalPlanReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPlanReminderUITests.swift; sourceTree = "<group>"; };
+		93B75BD828A21CEC00893AE3 /* CalPlanReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalPlanReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B75BB028A21CEB00893AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B75BC528A21CEC00893AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B75BCF28A21CEC00893AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B75BAA28A21CEB00893AE3 = {
+			isa = PBXGroup;
+			children = (
+				93B75BB528A21CEB00893AE3 /* CalPlanReminder */,
+				93B75BCB28A21CEC00893AE3 /* CalPlanReminderTests */,
+				93B75BD528A21CEC00893AE3 /* CalPlanReminderUITests */,
+				93B75BB428A21CEB00893AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B75BB428A21CEB00893AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B75BB328A21CEB00893AE3 /* CalPlanReminder.app */,
+				93B75BC828A21CEC00893AE3 /* CalPlanReminderTests.xctest */,
+				93B75BD228A21CEC00893AE3 /* CalPlanReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B75BB528A21CEB00893AE3 /* CalPlanReminder */ = {
+			isa = PBXGroup;
+			children = (
+				93B75BB628A21CEB00893AE3 /* CalPlanReminderApp.swift */,
+				93B75BB828A21CEB00893AE3 /* ContentView.swift */,
+				93B75BBA28A21CEC00893AE3 /* Assets.xcassets */,
+				93B75BBF28A21CEC00893AE3 /* Persistence.swift */,
+				93B75BC128A21CEC00893AE3 /* CalPlanReminder.xcdatamodeld */,
+				93B75BBC28A21CEC00893AE3 /* Preview Content */,
+			);
+			path = CalPlanReminder;
+			sourceTree = "<group>";
+		};
+		93B75BBC28A21CEC00893AE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93B75BBD28A21CEC00893AE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93B75BCB28A21CEC00893AE3 /* CalPlanReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B75BCC28A21CEC00893AE3 /* CalPlanReminderTests.swift */,
+			);
+			path = CalPlanReminderTests;
+			sourceTree = "<group>";
+		};
+		93B75BD528A21CEC00893AE3 /* CalPlanReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93B75BD628A21CEC00893AE3 /* CalPlanReminderUITests.swift */,
+				93B75BD828A21CEC00893AE3 /* CalPlanReminderUITestsLaunchTests.swift */,
+			);
+			path = CalPlanReminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B75BB228A21CEB00893AE3 /* CalPlanReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B75BDC28A21CEC00893AE3 /* Build configuration list for PBXNativeTarget "CalPlanReminder" */;
+			buildPhases = (
+				93B75BAF28A21CEB00893AE3 /* Sources */,
+				93B75BB028A21CEB00893AE3 /* Frameworks */,
+				93B75BB128A21CEB00893AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalPlanReminder;
+			productName = CalPlanReminder;
+			productReference = 93B75BB328A21CEB00893AE3 /* CalPlanReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B75BC728A21CEC00893AE3 /* CalPlanReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B75BDF28A21CEC00893AE3 /* Build configuration list for PBXNativeTarget "CalPlanReminderTests" */;
+			buildPhases = (
+				93B75BC428A21CEC00893AE3 /* Sources */,
+				93B75BC528A21CEC00893AE3 /* Frameworks */,
+				93B75BC628A21CEC00893AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B75BCA28A21CEC00893AE3 /* PBXTargetDependency */,
+			);
+			name = CalPlanReminderTests;
+			productName = CalPlanReminderTests;
+			productReference = 93B75BC828A21CEC00893AE3 /* CalPlanReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93B75BD128A21CEC00893AE3 /* CalPlanReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B75BE228A21CEC00893AE3 /* Build configuration list for PBXNativeTarget "CalPlanReminderUITests" */;
+			buildPhases = (
+				93B75BCE28A21CEC00893AE3 /* Sources */,
+				93B75BCF28A21CEC00893AE3 /* Frameworks */,
+				93B75BD028A21CEC00893AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B75BD428A21CEC00893AE3 /* PBXTargetDependency */,
+			);
+			name = CalPlanReminderUITests;
+			productName = CalPlanReminderUITests;
+			productReference = 93B75BD228A21CEC00893AE3 /* CalPlanReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B75BAB28A21CEB00893AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					93B75BB228A21CEB00893AE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					93B75BC728A21CEC00893AE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 93B75BB228A21CEB00893AE3;
+					};
+					93B75BD128A21CEC00893AE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 93B75BB228A21CEB00893AE3;
+					};
+				};
+			};
+			buildConfigurationList = 93B75BAE28A21CEB00893AE3 /* Build configuration list for PBXProject "CalPlanReminder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B75BAA28A21CEB00893AE3;
+			productRefGroup = 93B75BB428A21CEB00893AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B75BB228A21CEB00893AE3 /* CalPlanReminder */,
+				93B75BC728A21CEC00893AE3 /* CalPlanReminderTests */,
+				93B75BD128A21CEC00893AE3 /* CalPlanReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B75BB128A21CEB00893AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B75BBE28A21CEC00893AE3 /* Preview Assets.xcassets in Resources */,
+				93B75BBB28A21CEC00893AE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B75BC628A21CEC00893AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B75BD028A21CEC00893AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B75BAF28A21CEB00893AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B75BC028A21CEC00893AE3 /* Persistence.swift in Sources */,
+				93B75BC328A21CEC00893AE3 /* CalPlanReminder.xcdatamodeld in Sources */,
+				93B75BB928A21CEB00893AE3 /* ContentView.swift in Sources */,
+				93B75BB728A21CEB00893AE3 /* CalPlanReminderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B75BC428A21CEC00893AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B75BCD28A21CEC00893AE3 /* CalPlanReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B75BCE28A21CEC00893AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B75BD928A21CEC00893AE3 /* CalPlanReminderUITestsLaunchTests.swift in Sources */,
+				93B75BD728A21CEC00893AE3 /* CalPlanReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B75BCA28A21CEC00893AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B75BB228A21CEB00893AE3 /* CalPlanReminder */;
+			targetProxy = 93B75BC928A21CEC00893AE3 /* PBXContainerItemProxy */;
+		};
+		93B75BD428A21CEC00893AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B75BB228A21CEB00893AE3 /* CalPlanReminder */;
+			targetProxy = 93B75BD328A21CEC00893AE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93B75BDA28A21CEC00893AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93B75BDB28A21CEC00893AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B75BDD28A21CEC00893AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalPlanReminder/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G7FP27257;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TahitiZoom.CalPlanReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93B75BDE28A21CEC00893AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalPlanReminder/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G7FP27257;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TahitiZoom.CalPlanReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93B75BE028A21CEC00893AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G7FP27257;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TahitiZoom.CalPlanReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalPlanReminder.app/CalPlanReminder";
+			};
+			name = Debug;
+		};
+		93B75BE128A21CEC00893AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G7FP27257;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TahitiZoom.CalPlanReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalPlanReminder.app/CalPlanReminder";
+			};
+			name = Release;
+		};
+		93B75BE328A21CEC00893AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G7FP27257;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TahitiZoom.CalPlanReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalPlanReminder;
+			};
+			name = Debug;
+		};
+		93B75BE428A21CEC00893AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G7FP27257;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TahitiZoom.CalPlanReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalPlanReminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B75BAE28A21CEB00893AE3 /* Build configuration list for PBXProject "CalPlanReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B75BDA28A21CEC00893AE3 /* Debug */,
+				93B75BDB28A21CEC00893AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B75BDC28A21CEC00893AE3 /* Build configuration list for PBXNativeTarget "CalPlanReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B75BDD28A21CEC00893AE3 /* Debug */,
+				93B75BDE28A21CEC00893AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B75BDF28A21CEC00893AE3 /* Build configuration list for PBXNativeTarget "CalPlanReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B75BE028A21CEC00893AE3 /* Debug */,
+				93B75BE128A21CEC00893AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B75BE228A21CEC00893AE3 /* Build configuration list for PBXNativeTarget "CalPlanReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B75BE328A21CEC00893AE3 /* Debug */,
+				93B75BE428A21CEC00893AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93B75BC128A21CEC00893AE3 /* CalPlanReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93B75BC228A21CEC00893AE3 /* CalPlanReminder.xcdatamodel */,
+			);
+			currentVersion = 93B75BC228A21CEC00893AE3 /* CalPlanReminder.xcdatamodel */;
+			path = CalPlanReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93B75BAB28A21CEB00893AE3 /* Project object */;
+}
